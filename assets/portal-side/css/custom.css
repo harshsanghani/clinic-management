@@ -1,0 +1,659 @@
+body{
+    padding-right: 0px !important;
+}
+.help-inline {
+    color: red !important;
+    background-color: #FFF;
+}
+.field_title{
+    font-size: 13px;
+    font-family:Arial;
+    width: 300px;
+    margin-top: 10px
+}
+.form_error{
+    font-size: 13px;
+    font-family:Arial;
+    color:red;
+    font-style:italic
+}
+.form-group button{
+    margin-top: 20px; 
+} 
+
+.contact_label {
+    margin-bottom: 25px !important;
+}
+.form-group:not(.form-group--float)>label{
+    font-size: 1.3rem !important;
+}
+.form-control{
+    font-size: 1.3rem !important;
+    border-left: 1px solid #000 !important;
+    border-right: 1px solid #000 !important;
+    border-top: 1px solid #000 !important;
+    border-bottom: 1px solid #000 !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+.prescription_list select, .prescription_list .form-control{
+    font-size: 1rem !important;
+}
+.form-control:disabled, .form-control[readonly] {
+    background-color: #d3d3d3;
+    opacity: 1;
+}
+.abroad_form .form-control{
+    margin-bottom: 25px !important;
+}
+.abroad_form label{
+    font-size: 1.3rem !important;
+    font-weight: 400;
+}
+.card-title {
+    font-size: 1.55rem;
+    font-weight: 400;
+    color: #ec5656;
+}
+.error{
+    height: auto !important;
+}
+.dashboard_block{
+    background-image: url('../../front-side/img/operating-theatre.png');
+    min-height: 70vh;
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+.navigation li a:hover{
+    color: #fff !important;
+    border-color: #ec5656 !important;
+}
+.navigation li a:hover i{
+    color: #fff !important;
+}
+.navigation li a{
+    font-size: 1.2rem;
+    color: #fff !important;
+    margin-bottom: 10px;
+}
+.navigation>li>a>i{
+    top: 0.3rem;
+    color: #fff;
+}
+.calendar .fc-toolbar.fc-header-toolbar {
+    margin-bottom: 0;
+    height: 70px;
+    padding-top: 20px;
+}
+.fc-icon-right-single-arrow:after, .fc-icon-left-single-arrow:after {
+    top: -30%;
+}
+.fc-right .fc-state-default {
+    background-color: #d3d3d3;
+    margin-right: 7px;
+    font-size: 15px;
+}
+.calendar td, .calendar th {
+    border-color: #d3d3d3 !important;
+}
+.patient_search_result ul {
+    left: 0px;
+    right: 0px;
+    background-color: #fff;
+    position: absolute;
+    top: 40px;
+    padding: 10px 15px;
+    border: 3px solid #d3d3d3;
+    text-align: left;
+    max-height: 400px;
+    overflow-y: auto;
+    z-index: 3;
+}
+.location_search li:first-child {
+    padding-top: 0;
+    margin-bottom: 0;
+}
+
+.location_search li {
+    display: block;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.blog-list-sidebar li .post-thumb {
+    width: 45px;
+    height: 40px;
+    float: left;
+    border: 1px solid #eaeaea;
+    padding: 4px;
+    background: #fcfcfc;
+}
+.blog-list-sidebar li .post-info {
+    margin-left: 55px;
+    color: #999;
+}
+.blog-list-sidebar .post-info .entry_title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.location_search li h5 {
+    margin: 0;
+    font-size: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+}
+.blog-list-sidebar li .post-info .post-meta {
+    font-size: 12px;
+    margin-top: 5px;
+}
+.product_search_result ul li .post-meta span {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+}
+.blog-list-sidebar li .post-thumb img {
+    width: 35px;
+    height: 30px;
+}
+.contacts__info strong{
+    font-size: 15px;
+}
+.messages__item--right .messages__details {
+    padding: 0;
+}
+.messages__body .messages__content {
+    padding: 0;
+}
+.sidebar{
+    background: linear-gradient(180deg, rgba(5,73,136,1) 0%, rgba(5,73,136,1) 35%, rgba(173,151,189,1) 100%);
+    padding: 102px 1rem .5rem !important;
+    width: 245px !important;
+}
+header.header{
+    background: linear-gradient(90deg, rgba(5,73,136,1) 0%, rgba(5,73,136,1) 35%, rgba(173,151,189,1) 100%) !important;
+}
+.custom-radio{
+    font-size: 16px;
+    font-weight: normal;
+}
+.custom-radio .custom-control-indicator{
+    top: 0.4rem;
+}
+.no-found {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    display: table;
+    min-height: 50vh;
+}
+.tool_box .no-found {
+    min-height: 100%;
+    margin-top: 10%;
+}
+.no-found .card {
+    display: table-cell;
+    vertical-align: middle;
+}
+.no-found i{
+    font-size: 110px;
+    color: #ddd;
+}
+.no-found h2{
+    color: #ddd;
+}
+.trumbowyg-box{
+    border: 1px solid #000 !important;
+}
+.profile__info{
+    width: 100%;
+}
+.profile__info .icon-list li{
+    font-size: 16px;
+}
+.profile__info .icon-list li span{
+    font-weight: bold;
+}
+.profile__info {
+    padding: 0px 20px !important;
+}
+.profile__info .icon-list li{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+}
+.profile_bottom .btn{
+    margin-right: 10px;
+}
+.messages__content .extra_notes{
+    padding: 15px;
+}
+.messages__reply {
+    position: fixed !important;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    border-top: none !important;
+    padding: 0;
+    background: #fff;
+    box-shadow: 0 -5px 5px -5px #333;
+    padding-bottom: 10px;
+}
+.messages__reply button{
+    width: 100%;
+    font-size: 16px;
+}
+.select2-container .select2-selection--single{
+    height: 42px !important;
+    border-radius: 0 !important;
+    border: 1px solid #000 !important;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered{
+    font-size: 16px;
+    line-height: 23px !important;
+}
+.modal-title{
+    font-size: 21px !important;
+}
+.fc-time-grid-event.fc-short .fc-title {
+    font-size: 14px;
+    padding: 0;
+    padding-left: 8px;
+}
+.fc-icon-calendar__prev:after{
+    content: "\02039";
+    font-weight: 700;
+    font-size: 200%;
+    top: -7%;
+}
+.fc-icon-calendar__next:after{
+    content: "\0203A";
+    font-weight: 700;
+    font-size: 200%;
+    top: -7%;
+}
+select.form-control:not([size]):not([multiple]){
+    height: auto !important;
+}
+.sidebar .navigation li.navigation__active {
+    background-color: #ec5656;
+}
+select{
+    appearance: menu-item !important;
+}
+.calendar_main_title{
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.notes__body{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+}
+.delete_notes{
+    color: #fff;
+}
+.delete_notes:hover{
+    color: #ff5652;
+}
+.back_profile{
+    font-size: 18px;
+    color: #5c5c5c;
+    padding-bottom: 15px;
+    font-weight: bold;
+    display: block;
+}
+.toolbar__nav h4{
+    font-weight: 100;
+}
+.messages__body .messages__content .messages__item:last-child{
+    margin-bottom: 200px;
+}
+table tr td{
+    position: relative;
+}
+.invoice_action{
+    top: 43px !important;
+}
+.login{
+    background-image: url('../img/login.jpg');
+    background-size: cover;
+}
+.login:before{
+    content: "";
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+.custom-checkbox .custom-control-description{
+    font-size: 16px;
+    font-weight: 400;
+}
+.custom-checkbox .custom-control-indicator{
+    top: 0.3rem;
+}
+#modal-tool button {
+    margin: 0 auto;
+}
+.tool_container .tool_box .listview {
+    max-height: 300px;
+    min-height: 300px;
+    overflow-y: auto;
+}
+[data-columns]:before {
+    content : '';
+}
+.color-demo {
+    color: #fff;
+    text-align: center;
+    padding: 1.6rem;
+    border-radius: 2px;
+    margin-bottom: 2.2rem;
+    box-shadow: 0 4px 10px -2px rgba(0, 0, 0, 0.2);
+}
+.blue {
+    background-color: #673AB7;
+}
+.orage {
+    background-color: #FF9800;
+}
+.color-demo h5 { 
+    color: #fff;
+}
+.navigation__sub > a:before {
+    float: right !important;
+    font-family: FontAwesome;
+    content:"\f067";
+    padding-right: 5px;
+}
+.navigation__sub.navigation__sub--toggled > a:before {
+    float: right !important;
+    content:"\f068";
+}
+.dataTable tbody tr td{
+    font-size: 14px;
+}
+.dataTable tbody tr td .dropdown-menu{
+    top: 32px;
+}
+.dataTable tbody tr td .btn{
+    margin-right: 15px;
+}
+.dataTable tbody tr td .dropdown_box{
+    display: inline-block;
+    position: relative;
+}
+.prescription_report .prescription_list{
+    margin-bottom: 15px;
+}
+.report_thumbs{
+    text-align: center;
+}
+.lightbox.photos{
+    margin-top: 20px;
+}
+.report_thumbs img{
+    height: 105px;
+    padding-bottom: 10px;
+}
+.extra_notes .remove-extra-notes{
+    color: #ff5652;
+    line-height: 42px;
+}
+.fc .fc-toolbar>*>:first-child{
+    margin-left: 0.75em;
+}
+.profile__img .file_box {
+    background-color: #FFEB3B;
+    color: #5E5E5E;
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    padding: 5px;
+    right: 5px;
+    text-align: center;
+}
+.profile__img .file_box .file_box_title {
+    font-size: 16px;
+    font-weight: bold;
+}
+.profile__img .file_box p {
+    margin-bottom: 0;
+}
+.fc-time-grid .fc-slats td{
+    height: 2.5em;
+}
+.fc-time-grid-event .fc-title{
+    padding: 7px 6px;
+    font-size: 13px;
+}
+.fc-time-grid .fc-bgevent, .fc-time-grid .fc-event{
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.preview_title{
+    padding-bottom: 6px;
+    font-size: 16px;
+    color: #cbcbcb;
+}
+.patient_card{
+    border: 1px solid #d3d3d3;
+    padding: 10px 10px;
+}
+.patient_card .pateint_img{
+    width: 100%;
+    height: 60px;
+    margin: 3px auto;
+    object-fit: cover;
+}
+.patient_card_info p{
+    margin: 0;
+    padding-bottom: 3px;
+}
+.patient_card_info .phisician_name{
+    font-weight: 600;
+}
+.p-l-0{
+    padding-left: 0;
+}
+.p-r-0{
+    padding-right: 0;
+}
+.patient_card .custom-checkbox .custom-control-description{
+    font-size: 13px;
+}
+.patient_card .custom-checkbox .custom-control-indicator{
+    width: 1.008rem;
+    height: 1.008rem;
+}
+.patient_card .custom-control{
+    padding-left: 1.5rem;
+    margin-bottom: 10px;
+}
+.patient_card .custom-checkbox .custom-control-indicator:before{
+    line-height: 0.8rem;
+    font-size: .9rem;
+}
+.patient_card textarea{
+    font-size: 1rem !important;
+    border: 1px solid #e5e5e5 !important;
+    padding-left: 10px !important;
+}
+.errors{
+    color: red !important;
+}
+
+
+
+@media (max-width:768px){
+    .hidden-xs{
+        display: none;
+    }
+    .calendar .fc-button{
+        font-size: 12px !important;
+        padding: 0 .1em !important;
+    }
+    .fc-toolbar .fc-center{
+        margin-top: 15px;
+    }
+    .fc-toolbar .fc-center h2{
+        font-size: 18px;
+    }
+    .calendar .fc-toolbar.fc-header-toolbar{
+        margin-bottom: 25px;
+    }
+    #edit-event .btn{
+        margin-bottom: 20px;
+    }
+    .modal-dialog{
+        width: 95%;
+    }
+    .profile__img .file_box{
+        display: none;
+    }
+    .profile__info .icon-list li{
+        text-align: left;
+    }
+    .profile_bottom .btn{
+        margin-bottom: 15px;
+    }
+    .messages__reply button{
+        width: 80%;
+        margin: 0 auto;
+        display: block;
+    }
+    .col-xs-6{width:50%}
+    .tool_box{
+        width: 100%;
+    }
+    .invoice_action{
+        right: 0;
+    }
+
+    table.dataTable, .dataTable thead, .dataTable tbody, .dataTable th, .dataTable td, .dataTable tr { 
+        display: block; 
+        width: 100% !important;
+    }
+    .dataTable thead tr { 
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    .dataTable tr { 
+        border: 1px solid #ccc; 
+        margin-bottom: 20px;
+    }
+
+    .dataTable td {
+        border: none;
+        border-bottom: 1px solid #eee; 
+        position: relative;
+        text-align: right;
+        white-space: nowrap;
+
+    }
+    .dataTable tbody tr td .btn{
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+    .dataTable tbody tr td:nth-of-type(1){
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow:ellipsis;
+    }
+    .dataTable tbody tr td:nth-of-type(2){
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow:ellipsis;
+    }
+    .dataTable tbody tr td:last-child{
+        text-align: center;
+    }
+    .dataTable td:before {
+        top: 6px;
+        left: 6px;
+        width: 45%; 
+        padding-right: 10px; 
+        white-space: nowrap;
+        float: left;
+        text-align: left;
+    }
+    .patient_search_result ul{
+        top: 70px;
+    }
+    .prescription_list .form-control{
+        margin-bottom: 8px;
+    }
+    .prescription_list .add_detail{
+        margin-top: 23px;
+    }
+    #invoice-report tbody tr td:nth-of-type(1):before { content: "File No."; }
+    #invoice-report tbody tr td:nth-of-type(2):before { content: "Name"; }
+    #invoice-report tbody tr td:nth-of-type(3):before { content: "Consulting Charges"; }
+    #invoice-report tbody tr td:nth-of-type(4):before { content: "Medicine Charges"; }
+    #invoice-report tbody tr td:nth-of-type(5):before { content: "Received"; }
+    #invoice-report tbody tr td:nth-of-type(6):before { content: "Balance"; }
+    #invoice-report tbody tr td:nth-of-type(7):before { content: "Appointment"; }
+
+    #patient-list tbody tr td:nth-of-type(1):before { content: "Name"; }
+    #patient-list tbody tr td:nth-of-type(2):before { content: "Email"; }
+    #patient-list tbody tr td:nth-of-type(3):before { content: "Mobile"; }
+    #patient-list tbody tr td:nth-of-type(4):before { content: "Alt Mobile"; }
+    #patient-list tbody tr td:nth-of-type(5):before { content: "Created Date"; }
+
+    #prescription_report tbody tr td:nth-of-type(1):before { content: "Name"; }
+    #prescription_report tbody tr td:nth-of-type(2):before { content: "Date"; }
+
+    #testimonial-table tbody tr td:nth-of-type(1):before { content: "Name"; }
+    #testimonial-table tbody tr td:nth-of-type(2):before { content: "City"; }
+    #testimonial-table tbody tr td:nth-of-type(3):before { content: "Description"; }
+
+    #invoice_table tbody tr td:nth-of-type(1):before { content: "Appointment Date"; }
+    #invoice_table tbody tr td:nth-of-type(2):before { content: "Medicine"; }
+    #invoice_table tbody tr td:nth-of-type(3):before { content: "Amount"; }
+    
+    #prescription_report tbody tr .dataTables_empty:nth-of-type(1):before, 
+    #invoice-report tbody tr .dataTables_empty:nth-of-type(1):before,
+    #invoice_table tbody tr .dataTables_empty:nth-of-type(1):before,
+    #testimonial-table tbody tr .dataTables_empty:nth-of-type(1):before{
+        display: none;
+    }
+}
+
+.data_loader{
+    background: rgba(0,0,0,0.5);
+}
+.col-xs-11{width:91.66666667%}
+.col-xs-10{width:83.33333333%}
+.col-xs-9{width:75%}
+.col-xs-8{width:66.66666667%}
+.col-xs-7{width:58.33333333%}
+.col-xs-6{width:50%}
+.col-xs-5{width:41.66666667%}
+.col-xs-4{width:33.33333333%}
+.col-xs-3{width:25%}
+.col-xs-2{width:16.66666667%}
+.col-xs-1{width:8.33333333%}
+
+.hide{
+    display: none !important;
+}
+.green {
+ background-color: #30c183;   
+}
+ .model_scroll{
+    overflow-y:scroll;
+}
